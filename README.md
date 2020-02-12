@@ -45,7 +45,7 @@ Using the previous tools, we created a dataset of more than 10,000 movies produc
 
 ### Dealing with categorical data:
 - Genre: add all Genres as columns and use like dummies
-- Production company: take top 15 and add other and get dummies
+- Production company: take top 15 and add 'other' then get dummies
 - Cast, director, writer .. etc: generate representative weight values to reflect the persons’ power depending on the previous award nomination and wining.
 ### Adding useful columns:
 -	Separate date to year and month 
