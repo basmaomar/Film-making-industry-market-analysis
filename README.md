@@ -16,7 +16,7 @@ Using the previous tools, we created a dataset of more than 10,000 movies produc
 ## Cleaning
 -	Margining the datasets from different sources to reduce the number of null values 
 -	Remove unwanted columns, since the data produced over 40 columns which required us to drop unnecessary features that were not contributing to the prediction, such as: (Plot,	Type,	Released,	Location,	etc..)
-- Fix some values format:
+- Fixing some values format:
   - Year (Making it into a Date-Time Format)
   - Genre (Splitting the Genres into multiple columns to reduce redundancy)
   - Finances -Budget, Gross, Cumulative, Opening- (Removing symbols, calculating currency
@@ -43,11 +43,11 @@ Using the previous tools, we created a dataset of more than 10,000 movies produc
   
 ## Feature engineering
 
-### Deal with categorical data:
+### Dealing with categorical data:
 - Genre: add all Genres as columns and use like dummies
 - Production company: take top 15 and add other and get dummies
 - Cast, director, writer .. etc: generate representative weight values to reflect the persons’ power depending on the previous award nomination and wining.
-### Add useful columns:
+### Adding useful columns:
 -	Separate date to year and month 
 - Language (Making a Boolean column to represent English and a column to represent other languages)
 - Country (Making a Boolean column to represent USA and a column to represent other countries)
